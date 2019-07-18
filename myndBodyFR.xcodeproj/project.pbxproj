@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E73AA322E0D86F00A4B899 /* GMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E73AA222E0D86F00A4B899 /* GMViewController.swift */; };
+		18E73AA522E0DC5E00A4B899 /* gm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18E73AA422E0DC5E00A4B899 /* gm.mp3 */; };
+		18EB7EE822DFA0B00073180E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB7EE722DFA0B00073180E /* AppDelegate.swift */; };
+		18EB7EEA22DFA0B00073180E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB7EE922DFA0B00073180E /* ViewController.swift */; };
+		18EB7EED22DFA0B00073180E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB7EEB22DFA0B00073180E /* Main.storyboard */; };
+		18EB7EF022DFA0B00073180E /* myndBodyFR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EB7EEE22DFA0B00073180E /* myndBodyFR.xcdatamodeld */; };
+		18EB7EF222DFA0B20073180E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EB7EF122DFA0B20073180E /* Assets.xcassets */; };
+		18EB7EF522DFA0B20073180E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB7EF322DFA0B20073180E /* LaunchScreen.storyboard */; };
+		18EB7EFD22DFA11F0073180E /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18EB7EFC22DFA11F0073180E /* giphy.gif */; };
+		18EB7EFF22DFA1A40073180E /* Super Sonic - Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18EB7EFE22DFA1A40073180E /* Super Sonic - Demo.ttf */; };
+		18EB7F0122DFA1B40073180E /* Borui.otf in Resources */ = {isa = PBXBuildFile; fileRef = 18EB7F0022DFA1B40073180E /* Borui.otf */; };
+		18EB7F0322DFA2560073180E /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB7F0222DFA2560073180E /* SwiftGif.swift */; };
+		18EE0BD422DFE07100C77219 /* ASMRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EE0BD322DFE07100C77219 /* ASMRViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E73AA222E0D86F00A4B899 /* GMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMViewController.swift; sourceTree = "<group>"; };
+		18E73AA422E0DC5E00A4B899 /* gm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gm.mp3; sourceTree = "<group>"; };
+		18EB7EE422DFA0B00073180E /* myndBodyFR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myndBodyFR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EB7EE722DFA0B00073180E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EB7EE922DFA0B00073180E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18EB7EEC22DFA0B00073180E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EB7EEF22DFA0B00073180E /* myndBodyFR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myndBodyFR.xcdatamodel; sourceTree = "<group>"; };
+		18EB7EF122DFA0B20073180E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EB7EF422DFA0B20073180E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EB7EF622DFA0B20073180E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EB7EFC22DFA11F0073180E /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		18EB7EFE22DFA1A40073180E /* Super Sonic - Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Super Sonic - Demo.ttf"; sourceTree = "<group>"; };
+		18EB7F0022DFA1B40073180E /* Borui.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Borui.otf; sourceTree = "<group>"; };
+		18EB7F0222DFA2560073180E /* SwiftGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		18EE0BD322DFE07100C77219 /* ASMRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASMRViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EB7EE122DFA0B00073180E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EB7EDB22DFA0B00073180E = {
+			isa = PBXGroup;
+			children = (
+				18EB7EE622DFA0B00073180E /* myndBodyFR */,
+				18EB7EE522DFA0B00073180E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EB7EE522DFA0B00073180E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EB7EE422DFA0B00073180E /* myndBodyFR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EB7EE622DFA0B00073180E /* myndBodyFR */ = {
+			isa = PBXGroup;
+			children = (
+				18EB7EE722DFA0B00073180E /* AppDelegate.swift */,
+				18EB7EE922DFA0B00073180E /* ViewController.swift */,
+				18EB7EEB22DFA0B00073180E /* Main.storyboard */,
+				18E73AA222E0D86F00A4B899 /* GMViewController.swift */,
+				18EE0BD322DFE07100C77219 /* ASMRViewController.swift */,
+				18EB7F0222DFA2560073180E /* SwiftGif.swift */,
+				18EB7EFC22DFA11F0073180E /* giphy.gif */,
+				18EB7EF122DFA0B20073180E /* Assets.xcassets */,
+				18EB7EF322DFA0B20073180E /* LaunchScreen.storyboard */,
+				18EB7EF622DFA0B20073180E /* Info.plist */,
+				18EB7EEE22DFA0B00073180E /* myndBodyFR.xcdatamodeld */,
+				18EB7EFE22DFA1A40073180E /* Super Sonic - Demo.ttf */,
+				18EB7F0022DFA1B40073180E /* Borui.otf */,
+				18E73AA422E0DC5E00A4B899 /* gm.mp3 */,
+			);
+			name = myndBodyFR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EB7EE322DFA0B00073180E /* myndBodyFR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EB7EF922DFA0B20073180E /* Build configuration list for PBXNativeTarget "myndBodyFR" */;
+			buildPhases = (
+				18EB7EE022DFA0B00073180E /* Sources */,
+				18EB7EE122DFA0B00073180E /* Frameworks */,
+				18EB7EE222DFA0B00073180E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myndBodyFR;
+			productName = myndBodyFR;
+			productReference = 18EB7EE422DFA0B00073180E /* myndBodyFR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EB7EDC22DFA0B00073180E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18EB7EE322DFA0B00073180E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 18EB7EDF22DFA0B00073180E /* Build configuration list for PBXProject "myndBodyFR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EB7EDB22DFA0B00073180E;
+			productRefGroup = 18EB7EE522DFA0B00073180E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EB7EE322DFA0B00073180E /* myndBodyFR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EB7EE222DFA0B00073180E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EB7EF522DFA0B20073180E /* LaunchScreen.storyboard in Resources */,
+				18EB7EF222DFA0B20073180E /* Assets.xcassets in Resources */,
+				18EB7EFF22DFA1A40073180E /* Super Sonic - Demo.ttf in Resources */,
+				18EB7F0122DFA1B40073180E /* Borui.otf in Resources */,
+				18EB7EFD22DFA11F0073180E /* giphy.gif in Resources */,
+				18EB7EED22DFA0B00073180E /* Main.storyboard in Resources */,
+				18E73AA522E0DC5E00A4B899 /* gm.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EB7EE022DFA0B00073180E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E73AA322E0D86F00A4B899 /* GMViewController.swift in Sources */,
+				18EB7F0322DFA2560073180E /* SwiftGif.swift in Sources */,
+				18EE0BD422DFE07100C77219 /* ASMRViewController.swift in Sources */,
+				18EB7EEA22DFA0B00073180E /* ViewController.swift in Sources */,
+				18EB7EF022DFA0B00073180E /* myndBodyFR.xcdatamodeld in Sources */,
+				18EB7EE822DFA0B00073180E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EB7EEB22DFA0B00073180E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EB7EEC22DFA0B00073180E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EB7EF322DFA0B20073180E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EB7EF422DFA0B20073180E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EB7EF722DFA0B20073180E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EB7EF822DFA0B20073180E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EB7EFA22DFA0B20073180E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQVJ7BX7BV;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lauren-Ty.myndBodyFR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EB7EFB22DFA0B20073180E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQVJ7BX7BV;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lauren-Ty.myndBodyFR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EB7EDF22DFA0B00073180E /* Build configuration list for PBXProject "myndBodyFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB7EF722DFA0B20073180E /* Debug */,
+				18EB7EF822DFA0B20073180E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EB7EF922DFA0B20073180E /* Build configuration list for PBXNativeTarget "myndBodyFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EB7EFA22DFA0B20073180E /* Debug */,
+				18EB7EFB22DFA0B20073180E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18EB7EEE22DFA0B00073180E /* myndBodyFR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18EB7EEF22DFA0B00073180E /* myndBodyFR.xcdatamodel */,
+			);
+			currentVersion = 18EB7EEF22DFA0B00073180E /* myndBodyFR.xcdatamodel */;
+			path = myndBodyFR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18EB7EDC22DFA0B00073180E /* Project object */;
+}
